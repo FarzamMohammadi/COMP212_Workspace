@@ -1,0 +1,12 @@
+C:\Users\farza\Desktop\VS Docs\301109706(Mohammadi)_Lab01\301109706(Mohammadi)_Lab01\obj\Debug\301109706(Mohammadi)_Lab01.csprojAssemblyReference.cache
+C:\Users\farza\Desktop\VS Docs\301109706(Mohammadi)_Lab01\301109706(Mohammadi)_Lab01\obj\Debug\_301109706_Mohammadi__Lab01.StartingForm.resources
+C:\Users\farza\Desktop\VS Docs\301109706(Mohammadi)_Lab01\301109706(Mohammadi)_Lab01\obj\Debug\_301109706_Mohammadi__Lab01.Properties.Resources.resources
+C:\Users\farza\Desktop\VS Docs\301109706(Mohammadi)_Lab01\301109706(Mohammadi)_Lab01\obj\Debug\301109706(Mohammadi)_Lab01.csproj.GenerateResource.cache
+C:\Users\farza\Desktop\VS Docs\301109706(Mohammadi)_Lab01\301109706(Mohammadi)_Lab01\obj\Debug\301109706(Mohammadi)_Lab01.csproj.CoreCompileInputs.cache
+C:\Users\farza\Desktop\VS Docs\301109706(Mohammadi)_Lab01\301109706(Mohammadi)_Lab01\bin\Debug\301109706(Mohammadi)_Lab01.exe.config
+C:\Users\farza\Desktop\VS Docs\301109706(Mohammadi)_Lab01\301109706(Mohammadi)_Lab01\bin\Debug\301109706(Mohammadi)_Lab01.exe
+C:\Users\farza\Desktop\VS Docs\301109706(Mohammadi)_Lab01\301109706(Mohammadi)_Lab01\bin\Debug\301109706(Mohammadi)_Lab01.pdb
+C:\Users\farza\Desktop\VS Docs\301109706(Mohammadi)_Lab01\301109706(Mohammadi)_Lab01\obj\Debug\301109706(Mohammadi)_Lab01.exe
+C:\Users\farza\Desktop\VS Docs\301109706(Mohammadi)_Lab01\301109706(Mohammadi)_Lab01\obj\Debug\301109706(Mohammadi)_Lab01.pdb
+C:\Users\farza\Desktop\VS Docs\301109706(Mohammadi)_Lab01\301109706(Mohammadi)_Lab01\obj\Debug\_301109706_Mohammadi__Lab01.ManageSubscriptionForm.resources
+C:\Users\farza\Desktop\VS Docs\301109706(Mohammadi)_Lab01\301109706(Mohammadi)_Lab01\obj\Debug\_301109706_Mohammadi__Lab01.PublishNotificationForm.resources
