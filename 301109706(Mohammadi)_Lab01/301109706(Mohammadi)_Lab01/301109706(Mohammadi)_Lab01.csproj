@@ -52,12 +52,15 @@
     <Compile Include="ManageSubscriptionForm.Designer.cs">
       <DependentUpon>ManageSubscriptionForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Publisher.cs" />
     <Compile Include="PublishNotificationForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="PublishNotificationForm.Designer.cs">
       <DependentUpon>PublishNotificationForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="SendViaEmail.cs" />
+    <Compile Include="SendViaPhone.cs" />
     <Compile Include="StartingForm.cs">
       <SubType>Form</SubType>
     </Compile>

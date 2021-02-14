@@ -8,6 +8,8 @@ namespace _301109706_Mohammadi__Lab01
 {
     static class Program
     {
+        //Declare an instance variable of publisher class. 
+        public static Publisher publisher = new Publisher();
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
