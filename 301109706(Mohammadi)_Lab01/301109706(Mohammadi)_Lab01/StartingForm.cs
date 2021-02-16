@@ -19,10 +19,7 @@ namespace _301109706_Mohammadi__Lab01
             InitializeComponent();
 
         }
-        private void FrmNotificationManager_Load(object sender, EventArgs e)
-        {
 
-        }
         public void EnablePublishBtn(bool EnablePub)
         {
             this.BtnPublishNotification.Enabled = EnablePub;
@@ -55,6 +52,19 @@ namespace _301109706_Mohammadi__Lab01
             {
                 //Else if no is selected form will stay open.
                 this.Activate();
+            }
+        }
+
+        private void StartingForm_Load(object sender, EventArgs e)
+        {
+            List<string> list = (Program.publisher.ReturnRecieversList());
+            if (list.Count != 0)
+            {
+                BtnPublishNotification.Enabled = true;
+            }
+            else
+            {
+                BtnPublishNotification.Enabled = false;
             }
         }
     }

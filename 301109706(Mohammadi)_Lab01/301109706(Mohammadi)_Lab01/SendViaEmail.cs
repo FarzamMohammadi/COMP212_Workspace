@@ -10,39 +10,32 @@ namespace _301109706_Mohammadi__Lab01
     class SendViaEmail
     {
         public string EmailAdress { get; set; }
+        //List.
+        public static List<string> GetEmailAddressList = new List<string>();
+
         //Constructor.
         public SendViaEmail(string emailadress)
         {
             EmailAdress = emailadress;
-
         }
 
         //Send Message.
-        public string[] SendEmail(string msg)
+        public string SendEmailList()
         {
-            string[] emailList = new string[EmailAdress.Length];
-            emailList.Append(EmailAdress);
-            return emailList;
-        }
 
+            return EmailAdress;
+        }
 
         //Subscribe.
         public void Subscribe(Publisher pub)
         {
-            pub.publishmsg += SendEmail;
+            pub.sendEmail += SendEmailList;
         }
-
-
 
         //Unsubscribe.
         public void UnSubscribe(Publisher pub)
         {
-            pub.publishmsg -= SendEmail;
+            pub.sendEmail -= SendEmailList;
         }
-
-
-        //List.
-        public static List<string> GetEmailAddressList = new List<string>();
-
     }
 }

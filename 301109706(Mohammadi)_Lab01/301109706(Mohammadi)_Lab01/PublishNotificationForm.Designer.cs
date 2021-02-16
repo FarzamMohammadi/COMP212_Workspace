@@ -93,6 +93,7 @@ namespace _301109706_Mohammadi__Lab01
             this.BtnExit.TabIndex = 5;
             this.BtnExit.Text = "Back to Main Window";
             this.BtnExit.UseVisualStyleBackColor = true;
+            this.BtnExit.Click += new System.EventHandler(this.BtnExit_Click_1);
             // 
             // PublishNotificationForm
             // 

@@ -8,38 +8,34 @@ using System.Windows.Forms;
 namespace _301109706_Mohammadi__Lab01
 {
     class SendViaPhone
-    {
-        public string PhoneNumber { get; set; }
+    { 
+        //List.
+        public static List<string> GetPhoneNumberList = new List<string>();
 
+        public string PhoneNumber { get; set; }
 
         //Constructor.
         public SendViaPhone(string phonenumber)
         {
             PhoneNumber = phonenumber;
-
         }
 
         //Send Message.
-        private string[] SendMessage(string msg)
+        private string SendPhoneList()
         {
-            string[] phoneList = new string[PhoneNumber.Length];
-            phoneList.Append(PhoneNumber);
-            return phoneList;
+            return PhoneNumber;
         }
 
         //Subscribe.
         public void Subscribe(Publisher pub)
         {
-            pub.publishmsg += SendMessage;
+            pub.sendPhone += SendPhoneList;
         }
 
         //Unsubscribe.
         public void UnSubscribe(Publisher pub)
         {
-            pub.publishmsg -= SendMessage;
+            pub.sendPhone -= SendPhoneList;
         }
-
-        //List.
-        public static List<string> GetPhoneNumberList = new List<string>();
     }
 }

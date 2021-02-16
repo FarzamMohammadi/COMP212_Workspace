@@ -34,14 +34,15 @@ namespace _301109706_Mohammadi__Lab01
             this.BtnUnSubscribe = new System.Windows.Forms.Button();
             this.BtnCancel = new System.Windows.Forms.Button();
             this.CbxPhone = new System.Windows.Forms.CheckBox();
-            this.TxtEmail = new System.Windows.Forms.TextBox();
-            this.TxtSms = new System.Windows.Forms.TextBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
+            this.txtPhone = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // BtnSubscribe
             // 
             this.BtnSubscribe.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.BtnSubscribe.Location = new System.Drawing.Point(12, 292);
+            this.BtnSubscribe.Location = new System.Drawing.Point(12, 180);
             this.BtnSubscribe.Name = "BtnSubscribe";
             this.BtnSubscribe.Size = new System.Drawing.Size(189, 42);
             this.BtnSubscribe.TabIndex = 0;
@@ -63,17 +64,18 @@ namespace _301109706_Mohammadi__Lab01
             // BtnUnSubscribe
             // 
             this.BtnUnSubscribe.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.BtnUnSubscribe.Location = new System.Drawing.Point(319, 292);
+            this.BtnUnSubscribe.Location = new System.Drawing.Point(290, 180);
             this.BtnUnSubscribe.Name = "BtnUnSubscribe";
             this.BtnUnSubscribe.Size = new System.Drawing.Size(189, 42);
             this.BtnUnSubscribe.TabIndex = 3;
             this.BtnUnSubscribe.Text = "Unsubscribe";
             this.BtnUnSubscribe.UseVisualStyleBackColor = true;
+            this.BtnUnSubscribe.Click += new System.EventHandler(this.BtnUnSubscribe_Click_1);
             // 
             // BtnCancel
             // 
             this.BtnCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.BtnCancel.Location = new System.Drawing.Point(615, 292);
+            this.BtnCancel.Location = new System.Drawing.Point(564, 180);
             this.BtnCancel.Name = "BtnCancel";
             this.BtnCancel.Size = new System.Drawing.Size(189, 42);
             this.BtnCancel.TabIndex = 4;
@@ -85,40 +87,55 @@ namespace _301109706_Mohammadi__Lab01
             // 
             this.CbxPhone.AutoSize = true;
             this.CbxPhone.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.CbxPhone.Location = new System.Drawing.Point(12, 172);
+            this.CbxPhone.Location = new System.Drawing.Point(12, 76);
             this.CbxPhone.Name = "CbxPhone";
             this.CbxPhone.Size = new System.Drawing.Size(153, 21);
             this.CbxPhone.TabIndex = 5;
             this.CbxPhone.Text = "Text Notification To:";
             this.CbxPhone.UseVisualStyleBackColor = true;
             // 
-            // TxtEmail
+            // txtEmail
             // 
-            this.TxtEmail.AccessibleRole = System.Windows.Forms.AccessibleRole.List;
-            this.TxtEmail.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.TxtEmail.Location = new System.Drawing.Point(265, 36);
-            this.TxtEmail.Name = "TxtEmail";
-            this.TxtEmail.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.TxtEmail.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.TxtEmail.Size = new System.Drawing.Size(488, 20);
-            this.TxtEmail.TabIndex = 7;
-            this.TxtEmail.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtEmail.AccessibleRole = System.Windows.Forms.AccessibleRole.List;
+            this.txtEmail.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.txtEmail.Location = new System.Drawing.Point(265, 36);
+            this.txtEmail.Multiline = true;
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.txtEmail.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.txtEmail.Size = new System.Drawing.Size(488, 20);
+            this.txtEmail.TabIndex = 7;
+            this.txtEmail.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtEmail.TextChanged += new System.EventHandler(this.txtEmail_TextChanged_1);
             // 
-            // TxtSms
+            // txtPhone
             // 
-            this.TxtSms.Location = new System.Drawing.Point(265, 170);
-            this.TxtSms.Name = "TxtSms";
-            this.TxtSms.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.TxtSms.Size = new System.Drawing.Size(488, 20);
-            this.TxtSms.TabIndex = 8;
+            this.txtPhone.Location = new System.Drawing.Point(265, 76);
+            this.txtPhone.Multiline = true;
+            this.txtPhone.Name = "txtPhone";
+            this.txtPhone.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.txtPhone.Size = new System.Drawing.Size(488, 20);
+            this.txtPhone.TabIndex = 8;
+            this.txtPhone.TextChanged += new System.EventHandler(this.txtPhone_TextChanged_1);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.label1.Location = new System.Drawing.Point(8, 134);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(547, 20);
+            this.label1.TabIndex = 9;
+            this.label1.Text = "Please make sure that your -Email- and -Phone- entries are in correct format.";
             // 
             // ManageSubscriptionForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(816, 366);
-            this.Controls.Add(this.TxtSms);
-            this.Controls.Add(this.TxtEmail);
+            this.ClientSize = new System.Drawing.Size(783, 256);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.txtPhone);
+            this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.CbxPhone);
             this.Controls.Add(this.BtnCancel);
             this.Controls.Add(this.BtnUnSubscribe);
@@ -138,8 +155,8 @@ namespace _301109706_Mohammadi__Lab01
         private System.Windows.Forms.Button BtnUnSubscribe;
         private System.Windows.Forms.Button BtnCancel;
         private System.Windows.Forms.CheckBox CbxPhone;
-        private System.Windows.Forms.TextBox TxtEmail;
-        private System.Windows.Forms.TextBox TxtSms;
-      
+        private System.Windows.Forms.TextBox txtEmail;
+        private System.Windows.Forms.TextBox txtPhone;
+        private System.Windows.Forms.Label label1;
     }
 }

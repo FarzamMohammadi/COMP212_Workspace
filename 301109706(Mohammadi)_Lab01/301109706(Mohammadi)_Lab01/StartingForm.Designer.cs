@@ -78,6 +78,7 @@ namespace _301109706_Mohammadi__Lab01
             this.Controls.Add(this.BtnExit);
             this.Name = "StartingForm";
             this.Text = "Notification Manager";
+            this.Load += new System.EventHandler(this.StartingForm_Load);
             this.ResumeLayout(false);
 
         }
