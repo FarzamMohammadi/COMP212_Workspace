@@ -96,13 +96,11 @@ namespace _301109706_Mohammadi__Lab01
             // 
             // txtEmail
             // 
-            this.txtEmail.AccessibleRole = System.Windows.Forms.AccessibleRole.List;
             this.txtEmail.ForeColor = System.Drawing.SystemColors.MenuText;
             this.txtEmail.Location = new System.Drawing.Point(265, 36);
             this.txtEmail.Multiline = true;
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.txtEmail.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.txtEmail.Size = new System.Drawing.Size(488, 20);
             this.txtEmail.TabIndex = 7;
             this.txtEmail.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -113,9 +111,9 @@ namespace _301109706_Mohammadi__Lab01
             this.txtPhone.Location = new System.Drawing.Point(265, 76);
             this.txtPhone.Multiline = true;
             this.txtPhone.Name = "txtPhone";
-            this.txtPhone.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.txtPhone.Size = new System.Drawing.Size(488, 20);
             this.txtPhone.TabIndex = 8;
+            this.txtPhone.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtPhone.TextChanged += new System.EventHandler(this.txtPhone_TextChanged_1);
             // 
             // label1
