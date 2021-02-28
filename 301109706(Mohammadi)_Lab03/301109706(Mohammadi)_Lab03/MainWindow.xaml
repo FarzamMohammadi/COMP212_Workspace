@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_301109706_Mohammadi__Lab03"
         mc:Ignorable="d"
-        Title="Stock Data Viewer/Factorial Calculator" Background="Gray" Height="577.525" Width="1138.599">
+        Title="Stock Data Viewer/Factorial Calculator" Background="Gray" Height="511.525" Width="1138.599">
     <Grid>
-        <DataGrid x:Name="StocskDataGridXAML" HorizontalAlignment="Left" Height="294" Margin="469,10,0,0" VerticalAlignment="Top" Width="652">
+        <DataGrid x:Name="StocskDataGridXAML" HorizontalAlignment="Left" Height="449" Margin="469,10,0,0" VerticalAlignment="Top" Width="652">
             <!-- Column Header Text & Bindings -->
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Symbol" Binding="{Binding stockSymbol}" Width="100"/>
@@ -30,10 +30,10 @@
 
 
         </DataGrid>
-        <Button x:Name="searchBtn" Content="Search" HorizontalAlignment="Left" Margin="345,55,0,0" VerticalAlignment="Top" Width="89" RenderTransformOrigin="0,0.904" Click="Button_Click" Height="24"/>
-        <Label Content="If you'd like to manually search for a specific stock enter the symbol below:" HorizontalAlignment="Left" Margin="29,24,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="searchBtn" Content="Search" HorizontalAlignment="Left" Margin="135,55,0,0" VerticalAlignment="Top" Width="89" RenderTransformOrigin="0,0.904" Click="Button_Click" Height="24"/>
+        <Label Content="If you'd like to manually search for a specific stock enter the symbol below:" HorizontalAlignment="Left" Margin="10,24,0,0" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Height="0" Margin="816,141,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="6"/>
-        <DataGrid x:Name="SearchStockGridXAML" HorizontalAlignment="Left" Height="156" Margin="10,148,0,0" VerticalAlignment="Top" Width="433">
+        <DataGrid x:Name="SearchStockGridXAML" HorizontalAlignment="Left" Height="156" Margin="10,148,0,0" VerticalAlignment="Top" Width="454">
             <!-- Font Color / Style -->
             <DataGrid.Resources>
                 <Style TargetType="{x:Type DataGridColumnHeader}">
@@ -57,7 +57,13 @@
 
 
         </DataGrid>
-        <TextBox x:Name="searchTextBox" HorizontalAlignment="Left" Height="23" Margin="220,56,0,0" TextWrapping="Wrap" Text="SYMBOL" VerticalAlignment="Top" Width="120" RenderTransformOrigin="1.258,-0.065" AutomationProperties.Name="searchTextBox"/>
-        <Button x:Name="clearBtn" Content="CLear" HorizontalAlignment="Left" Margin="345,104,0,0" VerticalAlignment="Top" Width="89" RenderTransformOrigin="0,0.904" Click="Search_Clear_Button" Height="24"/>
+        <TextBox x:Name="searchTextBox" HorizontalAlignment="Left" Height="23" Margin="10,55,0,0" TextWrapping="Wrap" Text="SYMBOL" VerticalAlignment="Top" Width="120" RenderTransformOrigin="1.258,-0.065" AutomationProperties.Name="searchTextBox"/>
+        <Button x:Name="clearBtn" Content="CLear" HorizontalAlignment="Left" Margin="375,119,0,0" VerticalAlignment="Top" Width="89" RenderTransformOrigin="0,0.904" Click="Search_Clear_Button" Height="24"/>
+        <Label Content="NOTE: Empty Field = Negative Number." HorizontalAlignment="Left" Margin="10,115,0,0" VerticalAlignment="Top" Width="330"/>
+        <TextBox x:Name="userNumberInputTxtBox" HorizontalAlignment="Left" Height="29" Margin="10,365,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="181"/>
+        <Label Content="Find The Factorial of A Number: " HorizontalAlignment="Left" Margin="10,334,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="getFactorialBtn" Content="Get Factorial" HorizontalAlignment="Left" Margin="210,365,0,0" VerticalAlignment="Top" Width="100" Height="29" Click="getFactorialBtn_Click"/>
+        <Label Content="RESULT: " HorizontalAlignment="Left" Margin="10,399,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="factorialResultTxtBox" HorizontalAlignment="Left" Height="29" Margin="10,430,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="181"/>
     </Grid>
 </Window>
