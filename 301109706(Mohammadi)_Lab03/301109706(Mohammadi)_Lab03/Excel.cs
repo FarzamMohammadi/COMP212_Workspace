@@ -23,18 +23,31 @@ namespace _301109706_Mohammadi__Lab03
             ws = wb.Worksheets[sheet];
         }
 
-        public string ReadCell(int i, int j)
+        public string ReadCell(int row, int column)
         {
-            i++;
-            j++;
-            if(ws.Cells[i, j].Value2 != null)
+            row++;
+            column++;
+            if(ws.Cells[row, column].Value2 != null)
             {
-                return ws.Cells[i, j].Value.ToString();
+                return ws.Cells[row, column].Value.ToString();
             }
             else
             {
                 return "";
             }
         }
+        //public string ReadColumn(int i, int j)
+        //{
+        //    i++;
+        //    j++;
+        //    if (ws.Cells[i, j].Value2 != null)
+        //    {
+        //        return ws.Cells[i, j].Value.ToString();
+        //    }
+        //    else
+        //    {
+        //        return "";
+        //    }
+        //}
     }
 }

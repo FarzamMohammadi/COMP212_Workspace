@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_301109706_Mohammadi__Lab03"
         mc:Ignorable="d"
-        Title="Stock Data Viewer/Factorial Calculator" Background="Gray" Height="450" Width="800">
+        Title="Stock Data Viewer/Factorial Calculator" Background="Gray" Height="577.525" Width="1138.599">
     <Grid>
-        <DataGrid x:Name="StocskDataGridXAML" HorizontalAlignment="Left" Height="294" Margin="10,10,0,0" VerticalAlignment="Top" Width="652">
+        <DataGrid x:Name="StocskDataGridXAML" HorizontalAlignment="Left" Height="294" Margin="469,10,0,0" VerticalAlignment="Top" Width="652">
             <!-- Column Header Text & Bindings -->
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Symbol" Binding="{Binding stockSymbol}" Width="100"/>
@@ -17,7 +17,7 @@
                 <DataGridTextColumn Header="Low" Binding="{Binding lowestPrice}" Width="100"/>
                 <DataGridTextColumn Header="Close" Binding="{Binding closingPrice}" Width="*"/>
             </DataGrid.Columns>
-            
+
             <!-- Font Color / Style -->
             <DataGrid.Resources>
                 <Style TargetType="{x:Type DataGridColumnHeader}">
@@ -30,5 +30,34 @@
 
 
         </DataGrid>
+        <Button x:Name="searchBtn" Content="Search" HorizontalAlignment="Left" Margin="345,55,0,0" VerticalAlignment="Top" Width="89" RenderTransformOrigin="0,0.904" Click="Button_Click" Height="24"/>
+        <Label Content="If you'd like to manually search for a specific stock enter the symbol below:" HorizontalAlignment="Left" Margin="29,24,0,0" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Height="0" Margin="816,141,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="6"/>
+        <DataGrid x:Name="SearchStockGridXAML" HorizontalAlignment="Left" Height="156" Margin="10,148,0,0" VerticalAlignment="Top" Width="433">
+            <!-- Font Color / Style -->
+            <DataGrid.Resources>
+                <Style TargetType="{x:Type DataGridColumnHeader}">
+                    <Setter Property="Background" Value="Turquoise"/>
+                    <Setter Property="FontWeight" Value="SemiBold"/>
+                    <Setter Property="BorderThickness" Value="0,0,1,2"/>
+                    <Setter Property="BorderBrush" Value="Black"/>
+                </Style>
+            </DataGrid.Resources>
+
+
+            <!-- Column Header Text & Bindings -->
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Symbol" Binding="{Binding stockSymbol}" Width="70"/>
+                <DataGridTextColumn Header="Date" Binding="{Binding retrievedDate}" Width="100"/>
+                <DataGridTextColumn Header="Open" Binding="{Binding openingPrice}" Width="70"/>
+                <DataGridTextColumn Header="High" Binding="{Binding highestPrice}" Width="70"/>
+                <DataGridTextColumn Header="Low" Binding="{Binding lowestPrice}" Width="70"/>
+                <DataGridTextColumn Header="Close" Binding="{Binding closingPrice}" Width="*"/>
+            </DataGrid.Columns>
+
+
+        </DataGrid>
+        <TextBox x:Name="searchTextBox" HorizontalAlignment="Left" Height="23" Margin="220,56,0,0" TextWrapping="Wrap" Text="SYMBOL" VerticalAlignment="Top" Width="120" RenderTransformOrigin="1.258,-0.065" AutomationProperties.Name="searchTextBox"/>
+        <Button x:Name="clearBtn" Content="CLear" HorizontalAlignment="Left" Margin="345,104,0,0" VerticalAlignment="Top" Width="89" RenderTransformOrigin="0,0.904" Click="Search_Clear_Button" Height="24"/>
     </Grid>
 </Window>
