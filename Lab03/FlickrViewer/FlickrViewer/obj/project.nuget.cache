@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JIwphevzjkaNrZjl0DnwsQBzqTQKeOX/lg56S30K8J2WM/sJdqWcjeNaJjHU1BU73xwd9RD0O7K8fkP7ITR3Sw==",
+  "dgSpecHash": "J9Q3MUS9Mq61MwhAL7+nBb18WjqPTJLaQi3qywP+bUw2jn/jTfytZWxuTLwjYK007+dsnkgbMGDPMmtEq/hW8A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\farza\\Desktop\\COMP254_Workspace\\FlickrViewer\\FlickrViewer\\FlickrViewer.csproj",
+  "projectFilePath": "C:\\Users\\farza\\Desktop\\COMP212_Workspace\\Lab03\\FlickrViewer\\FlickrViewer\\FlickrViewer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\farza\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\farza\\.nuget\\packages\\system.data.datasetextensions\\4.5.0\\system.data.datasetextensions.4.5.0.nupkg.sha512"
