@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\farza\\Desktop\\COMP212_Workspace\\Lab03\\FlickrViewer\\FlickrViewer\\FlickrViewer.csproj": {}
+    "C:\\Users\\farza\\Desktop\\COMP254_Workspace\\FlickrViewer\\FlickrViewer\\FlickrViewer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\farza\\Desktop\\COMP212_Workspace\\Lab03\\FlickrViewer\\FlickrViewer\\FlickrViewer.csproj": {
+    "C:\\Users\\farza\\Desktop\\COMP254_Workspace\\FlickrViewer\\FlickrViewer\\FlickrViewer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\farza\\Desktop\\COMP212_Workspace\\Lab03\\FlickrViewer\\FlickrViewer\\FlickrViewer.csproj",
+        "projectUniqueName": "C:\\Users\\farza\\Desktop\\COMP254_Workspace\\FlickrViewer\\FlickrViewer\\FlickrViewer.csproj",
         "projectName": "FlickrViewer",
-        "projectPath": "C:\\Users\\farza\\Desktop\\COMP212_Workspace\\Lab03\\FlickrViewer\\FlickrViewer\\FlickrViewer.csproj",
+        "projectPath": "C:\\Users\\farza\\Desktop\\COMP254_Workspace\\FlickrViewer\\FlickrViewer\\FlickrViewer.csproj",
         "packagesPath": "C:\\Users\\farza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\farza\\Desktop\\COMP212_Workspace\\Lab03\\FlickrViewer\\FlickrViewer\\obj\\",
+        "outputPath": "C:\\Users\\farza\\Desktop\\COMP254_Workspace\\FlickrViewer\\FlickrViewer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\farza\\AppData\\Roaming\\NuGet\\NuGet.Config",
