@@ -1,0 +1,15 @@
+C:\Users\farza\Desktop\COMP212_Workspace\301109706(Mohammadi)_Test01\301109706(Mohammadi)_Test01\obj\Debug\301109706(Mohammadi)_Test01.csprojAssemblyReference.cache
+C:\Users\farza\Desktop\COMP212_Workspace\301109706(Mohammadi)_Test01\301109706(Mohammadi)_Test01\obj\Debug\MainWindow.g.cs
+C:\Users\farza\Desktop\COMP212_Workspace\301109706(Mohammadi)_Test01\301109706(Mohammadi)_Test01\obj\Debug\App.g.cs
+C:\Users\farza\Desktop\COMP212_Workspace\301109706(Mohammadi)_Test01\301109706(Mohammadi)_Test01\obj\Debug\301109706(Mohammadi)_Test01_MarkupCompile.cache
+C:\Users\farza\Desktop\COMP212_Workspace\301109706(Mohammadi)_Test01\301109706(Mohammadi)_Test01\obj\Debug\301109706(Mohammadi)_Test01_MarkupCompile.lref
+C:\Users\farza\Desktop\COMP212_Workspace\301109706(Mohammadi)_Test01\301109706(Mohammadi)_Test01\bin\Debug\301109706(Mohammadi)_Test01.exe.config
+C:\Users\farza\Desktop\COMP212_Workspace\301109706(Mohammadi)_Test01\301109706(Mohammadi)_Test01\bin\Debug\301109706(Mohammadi)_Test01.exe
+C:\Users\farza\Desktop\COMP212_Workspace\301109706(Mohammadi)_Test01\301109706(Mohammadi)_Test01\bin\Debug\301109706(Mohammadi)_Test01.pdb
+C:\Users\farza\Desktop\COMP212_Workspace\301109706(Mohammadi)_Test01\301109706(Mohammadi)_Test01\obj\Debug\MainWindow.baml
+C:\Users\farza\Desktop\COMP212_Workspace\301109706(Mohammadi)_Test01\301109706(Mohammadi)_Test01\obj\Debug\301109706(Mohammadi)_Test01.g.resources
+C:\Users\farza\Desktop\COMP212_Workspace\301109706(Mohammadi)_Test01\301109706(Mohammadi)_Test01\obj\Debug\_301109706_Mohammadi__Test01.Properties.Resources.resources
+C:\Users\farza\Desktop\COMP212_Workspace\301109706(Mohammadi)_Test01\301109706(Mohammadi)_Test01\obj\Debug\301109706(Mohammadi)_Test01.csproj.GenerateResource.cache
+C:\Users\farza\Desktop\COMP212_Workspace\301109706(Mohammadi)_Test01\301109706(Mohammadi)_Test01\obj\Debug\301109706(Mohammadi)_Test01.csproj.CoreCompileInputs.cache
+C:\Users\farza\Desktop\COMP212_Workspace\301109706(Mohammadi)_Test01\301109706(Mohammadi)_Test01\obj\Debug\301109706(Mohammadi)_Test01.exe
+C:\Users\farza\Desktop\COMP212_Workspace\301109706(Mohammadi)_Test01\301109706(Mohammadi)_Test01\obj\Debug\301109706(Mohammadi)_Test01.pdb
