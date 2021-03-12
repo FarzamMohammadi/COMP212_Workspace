@@ -10,7 +10,7 @@ namespace _301109706_Mohammadi__Test01
     {
         public string countryRegion { get; set; }
         public string provinceState { get; set; }
-        public string recordDate { get; set; }
+        public DateTime recordDates { get; set; }
         public string numberOfRecovered { get; set; }
 
     }
