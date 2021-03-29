@@ -13,3 +13,4 @@ C:\Users\farza\Desktop\COMP212_Workspace\301109706(Mohammadi)_Lab04\301109706(Mo
 C:\Users\farza\Desktop\COMP212_Workspace\301109706(Mohammadi)_Lab04\301109706(Mohammadi)_Lab04\obj\Debug\301109706(Mohammadi)_Lab04.csproj.CoreCompileInputs.cache
 C:\Users\farza\Desktop\COMP212_Workspace\301109706(Mohammadi)_Lab04\301109706(Mohammadi)_Lab04\obj\Debug\301109706(Mohammadi)_Lab04.exe
 C:\Users\farza\Desktop\COMP212_Workspace\301109706(Mohammadi)_Lab04\301109706(Mohammadi)_Lab04\obj\Debug\301109706(Mohammadi)_Lab04.pdb
+C:\Users\farza\Desktop\COMP212_Workspace\301109706(Mohammadi)_Lab04\301109706(Mohammadi)_Lab04\obj\Debug\GeneratedInternalTypeHelper.g.cs
