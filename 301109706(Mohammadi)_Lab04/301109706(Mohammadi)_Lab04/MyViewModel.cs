@@ -1,4 +1,4 @@
-﻿using System;
+﻿ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,14 +10,7 @@ namespace _301109706_Mohammadi__Lab04
 {
     sealed class MyViewModel : ObservableCollection<StoreGoods_Appetizers>, INotifyPropertyChanged
     {
-        public event PropertyChangedEventHandler PropertyChanged;
-        private void OnPropertyChange(string propertyName)
-        {
-            if(PropertyChanged != null)
-            {
-                PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
-            }
-        }
+     
         private ObservableCollection<StoreGoods_Appetizers> _appetizers;
         public ObservableCollection<StoreGoods_Appetizers> Appetizers
         {

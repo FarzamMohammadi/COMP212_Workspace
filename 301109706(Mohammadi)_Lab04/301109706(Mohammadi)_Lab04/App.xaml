@@ -4,6 +4,5 @@
              xmlns:local="clr-namespace:_301109706_Mohammadi__Lab04"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
     </Application.Resources>
 </Application>
