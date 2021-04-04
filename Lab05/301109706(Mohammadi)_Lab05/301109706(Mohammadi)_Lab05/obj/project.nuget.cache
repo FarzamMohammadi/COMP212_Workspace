@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "dxXSXsGtjrjJ+E/X6PHdnimOGHlvr5heaCK4KwK444bRdYGmpSWhoj7NW0hx796vGUnJiw+o5+Ptx0fB3+AILg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\farza\\Desktop\\COMP212_Workspace\\Lab05\\301109706(Mohammadi)_Lab05\\301109706(Mohammadi)_Lab05\\301109706(Mohammadi)_Lab05.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\farza\\.nuget\\packages\\linq2db\\3.3.0\\linq2db.3.3.0.nupkg.sha512",
+    "C:\\Users\\farza\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
