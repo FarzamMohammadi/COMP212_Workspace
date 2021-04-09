@@ -12,42 +12,42 @@ namespace _301109706_Mohammadi__Lab05
         static void Main(string[] args)
         {
 
-            List<string> namesInORder = new List<string>();
-            
-            namesInORder = Country.countryNamesInAlphabeticalOrder();
-            foreach (string name in namesInORder)
+            List<string> returnedList = new List<string>();
+
+            returnedList = Country.countryNamesInAlphabeticalOrder();
+            foreach (string item in returnedList)
             {
 
-                Console.WriteLine(name);
+                Console.WriteLine(item);
             }
 
-            namesInORder = Country.countryNamesInDescendingNumberOfResources();
+            returnedList = Country.countryNamesInDescendingNumberOfResources();
             Console.WriteLine();
-            foreach (string name in namesInORder) { 
+            foreach (string item in returnedList) { 
                 
-                Console.WriteLine(name);
+                Console.WriteLine(item);
             }
 
-            namesInORder = Country.bordersArgentina();
+            returnedList = Country.bordersArgentina();
             Console.WriteLine();
-            foreach (string name in namesInORder)
+            foreach (string item in returnedList)
             {
-                Console.WriteLine(name);
+                Console.WriteLine(item);
             }
 
-            namesInORder = Country.countriesOverTenMilPopulation();
+            returnedList = Country.countriesOverTenMilPopulation();
             Console.WriteLine();
-            foreach (string name in namesInORder)
+            foreach (string item in returnedList)
             {
-                Console.WriteLine(name);
+                Console.WriteLine(item);
             }
 
 
-            namesInORder = Country.countryWithMaxPopulation();
+            returnedList = Country.countryWithMaxPopulation();
             Console.WriteLine();
-            foreach (string name in namesInORder)
+            foreach (string item in returnedList)
             {
-                Console.WriteLine(name);
+                Console.WriteLine(item);
             }
         }
     }

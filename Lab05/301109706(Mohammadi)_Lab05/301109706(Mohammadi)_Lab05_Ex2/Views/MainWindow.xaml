@@ -1,0 +1,17 @@
+﻿<Window x:Class="_301109706_Mohammadi__Lab05_Ex2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_301109706_Mohammadi__Lab05_Ex2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ListBox HorizontalAlignment="Left" Height="207" Margin="10,202,0,0" VerticalAlignment="Top" Width="306">
+            <ListBox x:Name="authorFoundListBox" Height="197" Width="296" DisplayMemberPath="{Binding Path=FullInfo}"/>
+        </ListBox>
+        <TextBox x:Name="lastNameTxt" HorizontalAlignment="Left" Height="34" Margin="125,152,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="191"/>
+        <Button Content="Search" HorizontalAlignment="Left" Margin="10,152,0,0" VerticalAlignment="Top" Width="96" Height="34" Click="Button_Click"/>
+
+    </Grid>
+</Window>
