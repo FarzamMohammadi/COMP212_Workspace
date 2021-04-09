@@ -7,11 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <ListBox HorizontalAlignment="Left" Height="207" Margin="10,202,0,0" VerticalAlignment="Top" Width="306">
-            <ListBox x:Name="authorFoundListBox" Height="197" Width="296" DisplayMemberPath="{Binding Path=FullInfo}"/>
-        </ListBox>
-        <TextBox x:Name="lastNameTxt" HorizontalAlignment="Left" Height="34" Margin="125,152,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="191"/>
-        <Button Content="Search" HorizontalAlignment="Left" Margin="10,152,0,0" VerticalAlignment="Top" Width="96" Height="34" Click="Button_Click"/>
+        <StackPanel Orientation="Horizontal" Height="103" VerticalAlignment="top">
+            <Button x:Name="listBooksBtn" Content="List of Book Title With Authors" HorizontalAlignment="Left" VerticalAlignment="Top" Width="228" Margin="15,38,0,0" Height="50" Background="PaleGoldenrod" FontSize="16" Click="listButton_Click" />
+            <Button x:Name="addNewBookBtn" Content="Add A New Book" HorizontalAlignment="Left" VerticalAlignment="Top" Width="228" Margin="40,38,0,0" Height="50" FontSize="16" Click="addButton_Click"/>
+            <Button x:Name="exitBtn" Content="Exit" HorizontalAlignment="Left" Width="228" Margin="40,25,0,0"  Height="50" Background="PaleGoldenrod" FontSize="16" Click="exitButton_Click"/>
+        </StackPanel>
+        <Frame Name="MyMainFrame" Content="" HorizontalAlignment="Left" Height="301" Margin="10,108,0,0" VerticalAlignment="Top" Width="772" NavigationUIVisibility="Hidden"/>
 
     </Grid>
 </Window>

@@ -1,8 +1,8 @@
 ﻿using _301109706_Mohammadi__Lab05_Ex2.Models.Books.db;
 using _301109706_Mohammadi__Lab05_Ex2.ViewModels;
+using _301109706_Mohammadi__Lab05_Ex2.Views;
 using System;
 using System.Collections.Generic;
-using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -27,26 +27,21 @@ namespace _301109706_Mohammadi__Lab05_Ex2
         public MainWindow()
         {
             InitializeComponent();
+        }
 
-          /*  SqlConnection conn =new SqlConnection();
-            conn.ConnectionString = "Server =.; Database = Books; Trusted_Connection = True";
+        private void listButton_Click(object sender, RoutedEventArgs e)
+        {
+            MyMainFrame.Navigate(new System.Uri("Views/ListBooksPage.xaml", UriKind.RelativeOrAbsolute));
+        }
 
-            conn.Open();*/
+        private void addButton_Click(object sender, RoutedEventArgs e)
+        {
 
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void exitButton_Click(object sender, RoutedEventArgs e)
         {
-            
-            DataAccess db = new DataAccess();
 
-            returnedSearch = db.GetAuthor(lastNameTxt.Text);
-            foreach(Authors item in returnedSearch)
-            {
-                MessageBox.Show(item.FirstName.ToString());
-            }
-        
-           
         }
     }
 }
