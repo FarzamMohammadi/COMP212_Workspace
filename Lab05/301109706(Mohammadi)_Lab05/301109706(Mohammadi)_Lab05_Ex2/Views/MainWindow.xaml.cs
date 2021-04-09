@@ -36,7 +36,7 @@ namespace _301109706_Mohammadi__Lab05_Ex2
 
         private void addButton_Click(object sender, RoutedEventArgs e)
         {
-
+            MyMainFrame.Navigate(new System.Uri("Views/AddBookPage.xaml", UriKind.RelativeOrAbsolute));
         }
 
         private void exitButton_Click(object sender, RoutedEventArgs e)
