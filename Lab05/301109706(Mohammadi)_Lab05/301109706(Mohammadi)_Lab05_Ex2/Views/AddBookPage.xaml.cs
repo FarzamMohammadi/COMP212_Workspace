@@ -25,7 +25,7 @@ namespace _301109706_Mohammadi__Lab05_Ex2.Views
         {
             InitializeComponent();
             DataContext = new AddBookPageViewModel();
-           
         }
+
     }
 }

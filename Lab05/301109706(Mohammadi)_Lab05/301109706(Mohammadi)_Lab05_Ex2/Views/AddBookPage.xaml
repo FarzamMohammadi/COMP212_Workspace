@@ -10,8 +10,8 @@
 
     <Grid>
         <Label Content="Book ISBN:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="60,32,0,0" FontSize="16" RenderTransformOrigin="0.86,0.172"/>
-        <Button Content="SAVE" HorizontalAlignment="Left" Margin="60,238,0,0" VerticalAlignment="Top" Width="213" Height="50"/>
-        <Button Content="CANCEL" HorizontalAlignment="Left" Margin="470,238,0,0" VerticalAlignment="Top" Width="213" Height="50"/>
+        <Button Content="SAVE" HorizontalAlignment="Left" Margin="60,238,0,0" VerticalAlignment="Top" Width="213" Height="50" Command="{Binding Path=SubmitButtonCommand}" CommandParameter="{Binding}"/>
+        <Button Content="CANCEL" HorizontalAlignment="Left" Margin="470,238,0,0" VerticalAlignment="Top" Width="213" Height="50" Command="{Binding Path=CancelButtonCommand}" CommandParameter="{Binding}"/>
         <Label Content="Book Title:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="60,68,0,0" FontSize="16" RenderTransformOrigin="0.86,0.172"/>
         <Label Content="Authors:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="60,104,0,0" FontSize="16" RenderTransformOrigin="0.86,0.172"/>
         <Label Content="Publication Date:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="60,140,0,0" FontSize="16" RenderTransformOrigin="0.86,0.172" Cursor="Hand"/>
@@ -20,8 +20,7 @@
         <TextBox x:Name="newBookTitleTxt" HorizontalAlignment="Left" Height="23" Margin="354,72,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="329" FontSize="16" Text="{Binding Path=NewBookTitle}"/>
         <TextBox x:Name="newBookAuthorsTxt" HorizontalAlignment="Left" Height="23" Margin="354,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="329" FontSize="16" Text="{Binding Path=NewBookAuthors}"/>
         <TextBox x:Name="newBookEditionTxt" HorizontalAlignment="Left" Height="23" Margin="354,180,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="329" FontSize="16" Text="{Binding Path=NewBookEdition}"/>
-        <Button x:Name="clearBtn" Content="Clear" HorizontalAlignment="Left" Margin="323,249,0,0" VerticalAlignment="Top" Width="90" Height="27" Command="{Binding Path=ClearCommand}" CommandParameter="{Binding}"/>
-        <DatePicker x:Name="newBookPubDateTxt" HorizontalAlignment="Left" Margin="354,145,0,0" VerticalAlignment="Top" Height="26" Width="329" Text="{Binding Path=NewBookPubDate}"/>
-
+        <Button x:Name="clearBtn" Content="Clear" HorizontalAlignment="Left" Margin="323,249,0,0" VerticalAlignment="Top" Width="90" Height="27" Command="{Binding Path=ClearButtonCommand}" CommandParameter="{Binding}"/>
+        <DatePicker x:Name="newBookPubDateTxt" HorizontalAlignment="Left" Margin="354,145,0,0" VerticalAlignment="Top" Height="26" Width="329" SelectedDate="{Binding Path = NewBookPubDate, StringFormat = {}{0:yyyy}}"/>
     </Grid>
 </Page>

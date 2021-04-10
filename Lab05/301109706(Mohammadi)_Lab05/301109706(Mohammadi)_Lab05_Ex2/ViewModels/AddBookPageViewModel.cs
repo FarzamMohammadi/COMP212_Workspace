@@ -1,5 +1,6 @@
 ﻿using _301109706_Mohammadi__Lab05_Ex2.Models.Books.db;
 using _301109706_Mohammadi__Lab05_Ex2.Views;
+using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Command;
 using Prism.Commands;
 using Prism.Mvvm;
@@ -11,11 +12,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Controls;
 using System.Windows.Input;
+using System.Windows.Navigation;
 
 namespace _301109706_Mohammadi__Lab05_Ex2.ViewModels
 {
-    class AddBookPageViewModel : BindableBase, INotifyPropertyChanged
+    class AddBookPageViewModel : BindableBase
     {
         //New book user inputs
         private string _newBookISBN;
@@ -72,6 +75,30 @@ namespace _301109706_Mohammadi__Lab05_Ex2.ViewModels
             NewBookEdition = "";
             NewBookPubDate = "";
             NewBookTitle = "";
+        }
+        
+        private void ExecuteCancelCommand()
+        {
+            ExecuteClearCommand();
+        }
+
+        private void ExecuteSubmitCommand()
+        {
+            //Date Format for Databse Submission
+             string newCopyRight = NewBookPubDate.Substring(0, 4);
+
+            //Name Formating for Database Submission
+            string userInputNames = NewBookAuthors;
+            string[] fullNames = userInputNames.Split(new[] { ',', ' ' }, StringSplitOptions.RemoveEmptyEntries);
+
+            string isbnNumber = NewBookISBN;
+            string titleName = NewBookTitle;
+            string editionNumber = NewBookEdition;
+
+            DataAccess db = new DataAccess();
+            db.submitNewBook(isbnNumber, titleName, int.Parse(editionNumber), newCopyRight, fullNames);
+            ExecuteClearCommand();
+
         }
         private readonly Func<bool> _canExecute;
         private bool CanExecute()

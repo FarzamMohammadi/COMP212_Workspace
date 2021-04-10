@@ -11,8 +11,8 @@
     <Grid>
         <DataGrid x:Name="BookListDataGrid" HorizontalAlignment="Left" Height="430" Margin="10,10,0,0" ItemsSource="{Binding BookList}" VerticalAlignment="Top" Width="750" AutoGenerateColumns="False" AlternatingRowBackground="LightBlue" AlternationCount="2">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Book Title" IsReadOnly="True" Width="390" Binding="{Binding Path=BookName}"></DataGridTextColumn>
-                <DataGridTextColumn Header="Authors" IsReadOnly="True" Width="*" Binding="{Binding Path=BookAuthor}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Book Title" IsReadOnly="True" Width="390" Binding="{Binding Path=Title}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Authors" IsReadOnly="True" Width="*" Binding="{Binding Path=Author}"></DataGridTextColumn>
             </DataGrid.Columns>
         </DataGrid>
     </Grid>

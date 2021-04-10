@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _301109706_Mohammadi__Lab05_Ex2.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,7 +23,9 @@ namespace _301109706_Mohammadi__Lab05_Ex2.Views
     {
         public ListBooksPage()
         {
+            
             InitializeComponent();
+            DataContext = new BooksViewModel();
         }
     }
 }

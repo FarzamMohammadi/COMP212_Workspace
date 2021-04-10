@@ -31,7 +31,8 @@ namespace _301109706_Mohammadi__Lab05_Ex2
 
         private void listButton_Click(object sender, RoutedEventArgs e)
         {
-            MyMainFrame.Navigate(new System.Uri("Views/ListBooksPage.xaml", UriKind.RelativeOrAbsolute));
+            ListBooksPage lp = new ListBooksPage();
+            MyMainFrame.Navigate(lp);
         }
 
         private void addButton_Click(object sender, RoutedEventArgs e)
@@ -41,7 +42,7 @@ namespace _301109706_Mohammadi__Lab05_Ex2
 
         private void exitButton_Click(object sender, RoutedEventArgs e)
         {
-
+            this.Close();
         }
     }
 }
