@@ -1,0 +1,6 @@
+C:\Users\farza\Documents\Farzam's Documents\Education\School\Semester 04\Programming 3 - COMP 212\Week 01\301109706(Mohammadi)_Lab01\Question01\Question02\bin\Debug\Question02.exe.config
+C:\Users\farza\Documents\Farzam's Documents\Education\School\Semester 04\Programming 3 - COMP 212\Week 01\301109706(Mohammadi)_Lab01\Question01\Question02\bin\Debug\Question02.exe
+C:\Users\farza\Documents\Farzam's Documents\Education\School\Semester 04\Programming 3 - COMP 212\Week 01\301109706(Mohammadi)_Lab01\Question01\Question02\bin\Debug\Question02.pdb
+C:\Users\farza\Documents\Farzam's Documents\Education\School\Semester 04\Programming 3 - COMP 212\Week 01\301109706(Mohammadi)_Lab01\Question01\Question02\obj\Debug\Question02.csproj.CoreCompileInputs.cache
+C:\Users\farza\Documents\Farzam's Documents\Education\School\Semester 04\Programming 3 - COMP 212\Week 01\301109706(Mohammadi)_Lab01\Question01\Question02\obj\Debug\Question02.exe
+C:\Users\farza\Documents\Farzam's Documents\Education\School\Semester 04\Programming 3 - COMP 212\Week 01\301109706(Mohammadi)_Lab01\Question01\Question02\obj\Debug\Question02.pdb

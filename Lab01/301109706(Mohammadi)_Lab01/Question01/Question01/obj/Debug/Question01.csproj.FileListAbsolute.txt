@@ -1,0 +1,10 @@
+C:\Users\farza\Documents\Farzam's Documents\Education\School\Semester 04\Programming 3 - COMP 212\Week 01\301109706(Mohammadi)_Lab01\Question01\Question01\bin\Debug\Question01.exe.config
+C:\Users\farza\Documents\Farzam's Documents\Education\School\Semester 04\Programming 3 - COMP 212\Week 01\301109706(Mohammadi)_Lab01\Question01\Question01\bin\Debug\Question01.exe
+C:\Users\farza\Documents\Farzam's Documents\Education\School\Semester 04\Programming 3 - COMP 212\Week 01\301109706(Mohammadi)_Lab01\Question01\Question01\bin\Debug\Question01.pdb
+C:\Users\farza\Documents\Farzam's Documents\Education\School\Semester 04\Programming 3 - COMP 212\Week 01\301109706(Mohammadi)_Lab01\Question01\Question01\obj\Debug\Question01.csprojAssemblyReference.cache
+C:\Users\farza\Documents\Farzam's Documents\Education\School\Semester 04\Programming 3 - COMP 212\Week 01\301109706(Mohammadi)_Lab01\Question01\Question01\obj\Debug\Question01.Form1.resources
+C:\Users\farza\Documents\Farzam's Documents\Education\School\Semester 04\Programming 3 - COMP 212\Week 01\301109706(Mohammadi)_Lab01\Question01\Question01\obj\Debug\Question01.Properties.Resources.resources
+C:\Users\farza\Documents\Farzam's Documents\Education\School\Semester 04\Programming 3 - COMP 212\Week 01\301109706(Mohammadi)_Lab01\Question01\Question01\obj\Debug\Question01.csproj.GenerateResource.cache
+C:\Users\farza\Documents\Farzam's Documents\Education\School\Semester 04\Programming 3 - COMP 212\Week 01\301109706(Mohammadi)_Lab01\Question01\Question01\obj\Debug\Question01.csproj.CoreCompileInputs.cache
+C:\Users\farza\Documents\Farzam's Documents\Education\School\Semester 04\Programming 3 - COMP 212\Week 01\301109706(Mohammadi)_Lab01\Question01\Question01\obj\Debug\Question01.exe
+C:\Users\farza\Documents\Farzam's Documents\Education\School\Semester 04\Programming 3 - COMP 212\Week 01\301109706(Mohammadi)_Lab01\Question01\Question01\obj\Debug\Question01.pdb
